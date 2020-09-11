@@ -1,5 +1,5 @@
 body{
-  background: url(coffee-apple.jpg) no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(city_scape.jpg) no-repeat center center fixed;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
