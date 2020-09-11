@@ -1,7 +1,7 @@
 import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import {Typography, Avatar, Grid, Box} from "@material-ui/core"
-import avatar from "../KM-logo.png"
+import avatar from "../logo_circle.png"
 import Typed from 'react-typed'
 
 //CSS STYLES
@@ -49,7 +49,7 @@ const Header = () => {
                 <Typography className={classes.subtitle} variant="h5">
                     <Typed 
                     strings={["Web Development", "Web Design", "MERN Stack"]} 
-                    typeSpeed={40}
+                    typeSpeed={150}
                     backspeed={60}
                     loop
                     />
