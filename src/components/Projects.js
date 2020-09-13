@@ -26,12 +26,11 @@ const useStyles = makeStyles({
 
     cardContainer: {
         maxWidth: 345,
-        margin: "3rem",
         margin: "5rem auto"
     }
 });
 
-const Portfolio = () => {
+const Projects = () => {
     const classes = useStyles()
     return (
         <div>
@@ -57,16 +56,16 @@ const Portfolio = () => {
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
-                                    <CardActions>
-                                        <Button size="small" color="primary">
-                                            share
-                                        </Button>
-                                        <Button size="small" color="primary">
-                                            Live Demo
-                                        </Button>
-                                    </CardActions>
                                 </CardContent>
                             </CardActionArea>
+                                <CardActions>
+                                    <Button size="small" color="primary">
+                                        share
+                                    </Button>
+                                    <Button size="small" color="primary">
+                                        Live Demo
+                                    </Button>
+                                </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 2 */}
@@ -88,16 +87,16 @@ const Portfolio = () => {
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
-                                    <CardActions>
-                                        <Button size="small" color="primary">
-                                            share
-                                        </Button>
-                                        <Button size="small" color="primary">
-                                            Live Demo
-                                        </Button>
-                                    </CardActions>
                                 </CardContent>
                             </CardActionArea>
+                                <CardActions>
+                                    <Button size="small" color="primary">
+                                        share
+                                    </Button>
+                                    <Button size="small" color="primary">
+                                        Live Demo
+                                    </Button>
+                                </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 3 */}
@@ -119,16 +118,16 @@ const Portfolio = () => {
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
-                                    <CardActions>
-                                        <Button size="small" color="primary">
-                                            share
-                                        </Button>
-                                        <Button size="small" color="primary">
-                                            Live Demo
-                                        </Button>
-                                    </CardActions>
                                 </CardContent>
                             </CardActionArea>
+                                <CardActions>
+                                    <Button size="small" color="primary">
+                                        share
+                                    </Button>
+                                    <Button size="small" color="primary">
+                                        Live Demo
+                                    </Button>
+                                </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 4 */}
@@ -150,16 +149,16 @@ const Portfolio = () => {
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
-                                    <CardActions>
-                                        <Button size="small" color="primary">
-                                            share
-                                        </Button>
-                                        <Button size="small" color="primary">
-                                            Live Demo
-                                        </Button>
-                                    </CardActions>
                                 </CardContent>
                             </CardActionArea>
+                                <CardActions>
+                                    <Button size="small" color="primary">
+                                        share
+                                    </Button>
+                                    <Button size="small" color="primary">
+                                        Live Demo
+                                    </Button>
+                                </CardActions>                                
                         </Card>   
                     </Grid>
                 </Grid>
@@ -168,4 +167,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default Projects

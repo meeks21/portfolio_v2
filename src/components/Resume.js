@@ -2,7 +2,7 @@ import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import {Typography, Box} from '@material-ui/core'
 import Navbar from './NavBar'
-import { mergeClasses } from '@material-ui/styles'
+
 
 
 const useStyles = makeStyles(theme => ({

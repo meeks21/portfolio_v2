@@ -1,7 +1,9 @@
 body{
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(city_scape.jpg) no-repeat center center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(city_scape.jpg) no-repeat center center fixed;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
   background: cover;
+  width: 100%;
+  overflow-x: hidden;
 }
