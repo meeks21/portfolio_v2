@@ -44,7 +44,7 @@ const InputField = withStyles({
 
 const Contact = () => {
 
-    const classes = useStyles()
+const classes = useStyles()
 
     return (
         <div>

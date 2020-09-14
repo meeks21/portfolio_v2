@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme=> ({
         margin: theme.spacing(1),
     },
     title: {
-        color: "tomato"
+        color: "tan"
     },
     subtitle: {
         color: "tan",
@@ -48,7 +48,7 @@ const Header = () => {
                 <br/>
                 <Typography className={classes.subtitle} variant="h5">
                     <Typed 
-                    strings={["Web Development", "Web Design", "MERN Stack"]} 
+                    strings={["Web Development", "Web Design", "HTML",  "CSS", "JavaScript"]} 
                     typeSpeed={150}
                     backspeed={60}
                     loop

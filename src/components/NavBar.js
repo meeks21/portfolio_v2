@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
 import Footer from "./Footer"
 import {
@@ -22,7 +22,8 @@ import {
     AssignmentInd,
     Home,
     Apps,
-    ContactMail
+    ContactMail,
+    School
 } from '@material-ui/icons';
 
 import avatar from "../logo_circle.png";
@@ -31,7 +32,7 @@ import avatar from "../logo_circle.png";
 const useStyles = makeStyles(theme =>({
     menuSliderContainer: {
         width: 250,
-        background: "#511",
+        background: "#00181F",
         height: "100%"
     },
 
@@ -62,6 +63,11 @@ const menuItems = [
         listIcon: <Apps/>,
         listText: "Projects",
         listPath: "/projects"
+    },
+    {
+        listIcon: <School/>,
+        listText: "Education",
+        listPath: "/education"
     },
     {
         listIcon: <ContactMail/>,
@@ -110,7 +116,7 @@ const NavBar = () => {
                 <AppBar position="static" style={{background: '#222'}}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right", true)}>
-                            <ArrowBack style={{color: "tomato"}}/>
+                            <ArrowBack style={{color: "#277CA0"}}/>
                         </IconButton>
                         <Typography variant="h5" style={{color: "tan"}}>
                             Portfolio

@@ -20,7 +20,7 @@ import project4 from '../images/mern-stack.jpg'
 const useStyles = makeStyles({
 
     mainContainer: {
-        background: "#233",
+        
         height: "100%"
     },
 
