@@ -12,11 +12,12 @@ const useStyles = makeStyles(theme=> ({
         margin: theme.spacing(1),
     },
     title: {
-        color: "tan"
+        color: "tan",
+        marginBottom: "1rem"
     },
     subtitle: {
         color: "tan",
-        marginBottom: "3rem"
+        marginBottom: "2.5rem"
     },
     typedContainer: {
         position: "absolute",
@@ -26,7 +27,12 @@ const useStyles = makeStyles(theme=> ({
         width: "100vw",
         textAlign: "center",
         zIndex: 1
+    },
+    paragraph: {
+        color: "tan",
+        fontSize: "1.3rem"
     }
+
 
 }))
 
@@ -38,22 +44,24 @@ const Header = () => {
                 <Grid container justify="center">
                     <Avatar className={classes.avatar} src={avatar} alt="Kemar Meeks"/>
                 </Grid>
-                
-                <Typography className={classes.title} variant="h4">
-                    <Typed 
-                    strings={["Kemar"]} 
-                    typeSpeed={60}
-                    />
-                </Typography>
-                <br/>
                 <Typography className={classes.subtitle} variant="h5">
                     <Typed 
                     strings={["Web Development", "Web Design", "HTML",  "CSS", "JavaScript"]} 
-                    typeSpeed={150}
-                    backspeed={60}
+                    typeSpeed={200}
+                    backspeed={90}
                     loop
                     />
-                </Typography>                
+                </Typography> 
+                <Typography className={classes.title} variant="h4">
+                    {/* <Typed 
+                    strings={["Kemar"]} 
+                    typeSpeed={60}
+                    /> */}
+                    Hi! I'm Kemar Meeks
+                </Typography>
+                <Typography className={classes.paragraph} variant="p">
+                    Front End Web Developer and Designer based in Seattle, WA.
+                </Typography>               
             </Box>
             
         </div>

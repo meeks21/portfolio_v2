@@ -43,7 +43,7 @@ const Home = () => {
                            random: true,
                            anim: {
                                enable: true,
-                               speed: 6,
+                               speed: 2,
                                size_min: 0.1,
                                sync: true
                            } 

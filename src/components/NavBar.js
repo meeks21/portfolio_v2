@@ -23,7 +23,8 @@ import {
     Home,
     Apps,
     ContactMail,
-    School
+    School,
+    Menu
 } from '@material-ui/icons';
 
 import avatar from "../logo_circle.png";
@@ -81,7 +82,7 @@ const menuItems = [
 const NavBar = () => {
 
     const [state, setState] = useState({
-        right: false
+        left: false
     });
 
     const toggleSlider = (slider, open) => () => {
@@ -94,7 +95,8 @@ const NavBar = () => {
         <Box 
         className={classes.menuSliderContainer} 
         component='div'
-        onClick={toggleSlider(slider.false)}>
+        onClick={toggleSlider(slider.false)}
+        >
             <Avatar className={classes.avatar} src={avatar} alt="kemar"/>
             <Divider />
             <List>
@@ -105,7 +107,6 @@ const NavBar = () => {
                     </ListItem>
                 ))}
             </List>
-
         </Box>
     )
 
@@ -115,16 +116,16 @@ const NavBar = () => {
             <Box component="nav">
                 <AppBar position="static" style={{background: '#222'}}>
                     <Toolbar>
-                        <IconButton onClick={toggleSlider("right", true)}>
-                            <ArrowBack style={{color: "#277CA0"}}/>
+                        <IconButton onClick={toggleSlider("left", true)}>
+                            <Menu style={{color: "#277CA0"}}/>
                         </IconButton>
                         <Typography variant="h5" style={{color: "tan"}}>
                             Portfolio
                         </Typography>
                         <MobileRightMenuSlider 
-                        anchor="right" 
-                        open={state.right}
-                        onClose={toggleSlider("right", false)}
+                        anchor="left" 
+                        open={state.left}
+                        onClose={toggleSlider("left", false)}
                         >
                             {sideList("right")}
                             <Footer />

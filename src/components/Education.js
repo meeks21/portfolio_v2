@@ -9,7 +9,7 @@ import google from "../google-logo.png"
 const useStyles = makeStyles(theme =>({
     mainContainer: {
         margin: "20px auto",
-        width: "60%",
+        width: "70%",
         // background: "red"
     },
 
@@ -39,7 +39,7 @@ const classes = useStyles()
                         <Typography variant="h2" style={{
                             color: "tan",
                             marginTop: "40px",
-                            marginBottom: "60px",
+                            marginBottom: "40px",
                             fontWeight: "100"    
                             }}
                         >
