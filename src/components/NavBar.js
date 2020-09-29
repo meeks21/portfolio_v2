@@ -55,20 +55,20 @@ const menuItems = [
         listText: "Home",
         listPath: "/"
     },
+    // {
+    //     listIcon: <AssignmentInd/>,
+    //     listText: "Resume",
+    //     listPath: "/resume"
+    // },
     {
-        listIcon: <AssignmentInd/>,
-        listText: "Resume",
-        listPath: "/resume"
+        listIcon: <School/>,
+        listText: "About",
+        listPath: "/about"
     },
     {
         listIcon: <Apps/>,
         listText: "Projects",
         listPath: "/projects"
-    },
-    {
-        listIcon: <School/>,
-        listText: "Education",
-        listPath: "/education"
     },
     {
         listIcon: <ContactMail/>,

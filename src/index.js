@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router} from "react-router-dom"
+import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const theme = createMuiTheme({
+  Typography: {
+    fontFamily: [
+      '"Helvetica Neue"',
+      'sans-serif',
+      '-apple-system',
+      'Arial',
+      
+    ],
+    fontWeightLight: "100"
+  },
+});
+
 ReactDOM.render(
   <Router>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </Router>,
     
    

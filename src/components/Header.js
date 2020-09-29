@@ -17,7 +17,8 @@ const useStyles = makeStyles(theme=> ({
     },
     subtitle: {
         color: "tan",
-        marginBottom: "2.5rem"
+        marginBottom: "2.5rem",
+        
     },
     typedContainer: {
         position: "absolute",
@@ -30,7 +31,9 @@ const useStyles = makeStyles(theme=> ({
     },
     paragraph: {
         color: "tan",
-        fontSize: "1.3rem"
+        fontSize: "1.3rem",
+        margin: "auto"
+
     }
 
 
@@ -44,7 +47,7 @@ const Header = () => {
                 <Grid container justify="center">
                     <Avatar className={classes.avatar} src={avatar} alt="Kemar Meeks"/>
                 </Grid>
-                <Typography className={classes.subtitle} variant="h5">
+                <Typography className={classes.subtitle} variant="h6">
                     <Typed 
                     strings={["Web Development", "Web Design", "HTML",  "CSS", "JavaScript"]} 
                     typeSpeed={200}
@@ -61,7 +64,8 @@ const Header = () => {
                 </Typography>
                 <Typography className={classes.paragraph} variant="p">
                     Front End Web Developer and Designer based in Seattle, WA.
-                </Typography>               
+                </Typography>
+                          
             </Box>
             
         </div>

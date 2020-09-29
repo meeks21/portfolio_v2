@@ -54,18 +54,28 @@ const Projects = () => {
                                     Project 1
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="P">
-                                    Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
+                                    Responsive project built using HTML5, modern CSS3 techniques, and a touch of JavaScript. Tools included VSCode, Git, and Chrome Dev Tools.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                        share
-                                    </Button>
-                                    <Button size="small" color="primary">
-                                        Live Demo
-                                    </Button>
-                                </CardActions>                                
+                            <CardActions>
+                                <Button 
+                                href="https://github.com/meeks21/Omni-template-site" 
+                                target="_blank" 
+                                size="small" 
+                                color="primary"
+                                >
+                                    Share
+                                </Button>
+                                <Button 
+                                href="https://meeks21.github.io/Omni-template-site/" 
+                                target="_blank" 
+                                size="small" 
+                                color="primary"
+                                >
+                                    Live Demo
+                                </Button>
+                            </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 2 */}
@@ -82,21 +92,21 @@ const Projects = () => {
                                 </CardMedia>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                    Project 2
+                                    Coming Soon!
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                        share
-                                    </Button>
-                                    <Button size="small" color="primary">
-                                        Live Demo
-                                    </Button>
-                                </CardActions>                                
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                    Share
+                                </Button>
+                                <Button size="small" color="primary">
+                                    Live Demo
+                                </Button>
+                            </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 3 */}
@@ -113,21 +123,21 @@ const Projects = () => {
                                 </CardMedia>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                    Project 3
+                                    Coming Soon!
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                        share
-                                    </Button>
-                                    <Button size="small" color="primary">
-                                        Live Demo
-                                    </Button>
-                                </CardActions>                                
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                    Share
+                                </Button>
+                                <Button size="small" color="primary">
+                                    Live Demo
+                                </Button>
+                            </CardActions>                                
                         </Card>   
                     </Grid>
                     {/* Project 4 */}
@@ -144,21 +154,21 @@ const Projects = () => {
                                 </CardMedia>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                    Project 4
+                                    Coming Soon!
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="P">
                                     Phasellus feugiat leo eget suscipit efficitur. Morbi vulputate tellus porta, sagittis lacus at, efficitur dui. Morbi vel leo sed quam dapibus volutpat. Proin urna nibh, euismod quis augue id, auctor pellentesque ipsum. Cras ut scelerisque lorem. Aliquam maximus neque est, et dapibus augue ullamcorper sit amet. Donec dapibus velit ut lectus fringilla vehicula.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                        share
-                                    </Button>
-                                    <Button size="small" color="primary">
-                                        Live Demo
-                                    </Button>
-                                </CardActions>                                
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                    Share
+                                </Button>
+                                <Button size="small" color="primary">
+                                    Live Demo
+                                </Button>
+                            </CardActions>                                
                         </Card>   
                     </Grid>
                 </Grid>
